@@ -15,7 +15,7 @@ permalink: /about/
 - Last with Blanc : 2020-06-13
 - He went out to find a mate..
 
-### Picture of Blanc
+### Pictures of Blanc
 #### 1
 ![alt text](/public/img/Blanc-1.png){: width="302.4" height="403.2"}
 #### 2
