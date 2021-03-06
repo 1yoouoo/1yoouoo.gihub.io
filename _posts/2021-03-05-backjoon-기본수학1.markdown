@@ -7,9 +7,9 @@ categories: BACKJOON
 
 ### 손익분기점
 ```python
-잔디 가 왜 안심어 질ㄲ ㅏㄴ ㅏ..sdsd
-ㅇsdds3시간쨰 ㅁㄴㅇ,...
-.
+문제점을 찾았다 fork한 repo에서는 repo를 생성할 때를 제외하곤
+contribution이 안된다. 그러므로 새 repo를 생성하고 clone 후에
+commit, push하면 contribution이 심어진다!!@ㅉ!@!@!!!!찾았따!@!!
 
 ```
 ### 벌집
