@@ -5,7 +5,7 @@ date:   2021-03-04 20:00:00 +0900
 categories: BACKJOON
 ---
 
-### A+B-5
+### 10952 A+B-5
 ```python
 while True:
     A, B = map(int, input().split())
@@ -14,7 +14,7 @@ while True:
 
     print(A+B)
 ```
-### A+B-4
+### 10951 A+B-4
 ```python
 while True:
     try:
@@ -23,7 +23,7 @@ while True:
     except:
         break
 ```
-### 더하기 사이클
+### 1110 더하기 사이클
 ```python
 num = int(input())
 check = num
