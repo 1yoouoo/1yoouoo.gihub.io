@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "for문"
+title:  "[완료]for문"
 date:   2021-03-04 19:16:00 +0900
 categories: BACKJOON
 ---

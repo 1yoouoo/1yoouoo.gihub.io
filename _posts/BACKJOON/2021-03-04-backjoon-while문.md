@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "while문"
+title:  "[완료]while문"
 date:   2021-03-04 20:00:00 +0900
 categories: BACKJOON
 ---
