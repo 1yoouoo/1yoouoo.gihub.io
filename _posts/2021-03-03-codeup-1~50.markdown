@@ -1,0 +1,329 @@
+---
+layout: post
+title:  "CodeUp 기초 100제 (상)"
+date:   2021-03-03 16:00:00 +0900
+categories: CodeUp
+---
+
+### 6001
+```python
+print('Hello')
+```
+
+### 6002
+```python
+print('Hello World')
+```
+
+### 6003
+```python
+print('Hello', 'World', sep = '\n')
+```
+
+### 6004
+```python
+print("'Hello'")
+```
+
+### 6005
+```python
+print('"Hello World"')
+```
+
+### 6006
+```python
+print('"!@#$%^&*()"')
+```
+
+### 6007
+```python
+print('"C:\\Download\\hello.cpp"')
+```
+
+### 6008
+```python
+print("print(\"Hello\\nWorld\")")
+```
+
+### 6009
+```python
+print(input())
+```
+
+### 6010
+```python
+print(int(input()))
+```
+
+### 6011
+```python
+print(float(input()))
+```
+
+### 6012
+```python
+print(int(input()))
+print(int(input()))
+```
+
+
+### 6013
+```python
+a = input()
+b = input()
+print(b)
+print(a)
+```
+
+
+### 6014
+```python
+a = float(input())
+print(a)
+print(a)
+print(a)
+```
+
+### 6015
+```python
+a, b = input().split()
+print(a)
+print(b)
+```
+
+### 6016
+```python
+a,b = input().split()
+print(b,a)
+```
+
+### 6017
+```python
+a = input()
+print(a,a,a)
+```
+
+### 6018
+```python
+a,b = input().split(':')
+print(a,b,sep=':')
+```
+
+### 6019
+```python
+a,b,c = input().split('.')
+print(c,b,a,sep='-')
+```
+
+### 6020
+```python
+a,b = input().split('-')
+print(a,b,sep='')
+```
+
+### 6021
+```python
+a = input()
+a = str(a)
+for i in a:
+    print(i)
+```
+
+### 6022
+```python
+a = input()
+a = str(a)
+print(a[0:2],a[2:4],a[4:6])
+```
+
+### 6023
+```python
+a,b,c = input().split(':')
+print(b)
+```
+
+### 6024
+```python
+a, b = input().split()
+print(a,b,sep='')
+```
+
+### 6025
+```python
+a, b = input().split()
+c = int(a) + int(b)
+print(c)
+```
+
+### 6026
+```python
+a = input()
+b = input()
+c = float(a) + float(b)
+print(c)
+```
+
+### 6027
+```python
+n = int(input())
+print('%x'% n)
+```
+
+### 6028
+```python
+n = int(input())
+print('%X'% n)
+```
+
+### 6029
+```python
+a = input()
+n = int(a, 16)      
+print('%o' % n)
+```
+
+### 6030
+```python
+n = ord(input())
+print(n)
+```
+
+### 6031
+```python
+c = int(input())
+print(chr(c))
+```
+
+### 6032
+```python
+n = int(input())
+print(-n)
+```
+
+### 6033
+```python
+n = ord(input())
+print(chr(n+1))
+```
+
+### 6034
+```python
+a,b = input().split()
+c = int(a) - int(b)
+print(c)
+```
+
+### 6035
+```python
+f1, f2 = input().split()
+m = float(f1) * float(f2)
+print(m)
+```
+
+### 6036
+```python
+w, n = input().split()
+print(w*int(n))
+```
+
+### 6037
+```python
+n = input()
+s = input()
+print(int(n)*s)
+```
+
+### 6038
+```python
+a,b = input().split()
+c = int(a)**int(b) 
+print(c)
+```
+
+### 6039
+```python
+a,b = input().split()
+c = float(a)**float(b) 
+print(c)
+```
+
+### 6040
+```python
+a,b = map(int, input().split())
+print(a//b)
+```
+
+### 6041
+```python
+a,b = map(int, input().split())
+print(a%b)
+```
+
+### 6042
+```python
+f = float(input())
+print(round(f, 2))
+```
+
+### 6043
+```python
+a,b = map(float, input().split())
+n = a/b
+print('%.3f'%n)
+```
+
+### 6044
+```python
+a,b = map(float, input().split())
+#합
+print(int(a)+int(b))
+#차
+print(int(a)-int(b))
+#곱
+print(int(a)*int(b))
+#몫
+print(int(a)//int(b))
+#나머지
+print(int(a)%int(b))
+#나눈 값
+n = a/b
+print(round(n,2))
+```
+
+### 6045
+```python
+a,b,c = map(int, input().split())
+print(int(a)+int(b)+int(c))
+n = (a+b+c)/3
+print(round(n,2))
+```
+
+### 6046
+```python
+a = int(input())
+print(a<<1)
+```
+
+### 6047
+```python
+a, b = map(int, input().split())
+print(a<<b)
+```
+
+### 6048
+```python
+a,b = map(int, input().split())
+print(a<b)
+```
+
+### 6049
+```python
+a,b = map(int, input().split())
+print(a==b)
+```
+
+### 6050
+```python
+a,b = map(int, input().split())
+print(a<=b)
+```

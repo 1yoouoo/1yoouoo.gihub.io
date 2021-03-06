@@ -1,0 +1,94 @@
+---
+layout: post
+title:  "입출력과 사칙연산"
+date:   2021-03-03 18:00:00 +0900
+categories: BACKJOON
+---
+
+### 2557 Hello World
+```python
+print("Hello World!")
+```
+
+### 10718 We love kriii
+```python
+print("강한친구 대한육군")
+print("강한친구 대한육군")
+```
+
+### 10171 고양이
+```python
+print("\\    /\\")
+print(" )  ( ')")
+print("(  /  )")
+print(" \\(__)|")
+```
+~~~고양이 좋아~~~
+
+### 10172 개
+```python
+print("|\\_/|")
+print("|q p|   /}")
+print('( 0 )"""\\')
+print('|"^"`    |')
+print("||_/=\\\\__|")
+```
+
+### 1000 A+B
+```python
+a, b = map(int, input().split())
+print(a+b)
+```
+
+### 1001 A-B
+```python
+a, b = map(int, input().split())
+print(a-b)
+```
+
+### 10998 A*B
+```python
+a, b = input().split()
+a = int(a)    
+b = int(b)    
+ 
+print(a*b)
+```
+
+### 1008 A/B
+```python
+A , B = map(int, input().split())
+print(A/B)
+```
+
+### 10869 사칙연산
+```python
+a, b = map(int, input().split())
+print(a+b)
+print(a-b)
+print(a*b)
+print(a//b)
+print(a%b)
+```
+
+### 10430 나머지
+```python
+a, b, c = map(int, input().split())
+print((a+b)%c)
+print(((a%c)+(b%c))%c)
+print((a*b)%c)
+print(((a%c)*(b%c))%c)
+```
+
+### 2588 곱셈
+```python
+A = int(input())
+B = input()       
+
+AxB2 = A * int(B[2])
+AxB1 = A * int(B[1])
+AxB0 = A * int(B[0])
+AxB = A * int(B)
+
+print(AxB2, AxB1, AxB0, AxB, sep='\n')
+```

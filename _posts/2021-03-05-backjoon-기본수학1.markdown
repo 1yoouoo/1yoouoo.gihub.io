@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "기본수학 1"
+date:   2021-03-05 20:19:00 +0900
+categories: BACKJOON
+---
+
+### 손익분기점
+```python
+잔디 가 왜 안심어 질ㄲ ㅏㄴ ㅏ..sdsd
+ㅇsdds3시간쨰 ㅁㄴㅇ,...
+.
+
+```
+### 벌집
+```python
+N = int(input())
+cnt = 1
+while N > 1:
+    N -= (6 * cnt)
+    cnt += 1
+print(cnt)
+```
+### 분수찾기
+```python
+import sys
+import math
+
+a,b,v = map(int,sys.stdin.readline().split())`
+k = (v-b)/(a-b)
+print(int(k) if k == int(k) else int(k)+1)
+```
+
+### 달팽이는 올라가고 싶다
+```python
+
+`````
+### ACM 호텔
+```python
+
+```
+### 부녀회장이 될테야
+```python
+
+```
+### 설탕 배달
+```python
+
+```
+### 큰 수 A+B
+```python
+
+```
+### Fly me to the Alpha Centauri
+```python
+
+```

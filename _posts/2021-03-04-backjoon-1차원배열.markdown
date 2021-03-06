@@ -1,0 +1,99 @@
+---
+layout: post
+title:  "1차원 배열"
+date:   2021-03-04 19:21:00 +0900
+categories: BACKJOON
+---
+
+### 최소, 최대
+```python
+numbers = int(input())
+number_list = list(map(int, input().split()))
+
+max_num = number_list[0]
+min_num = number_list[0]
+for num in number_list:
+    
+    if num > max_num:
+        max_num = num
+    if num < min_num:
+        min_num = num
+
+print(min_num, max_num)
+```
+### 최댓값
+```python
+num_list = []
+for i in range(9):
+    num_list.append(int(input()))
+    
+print(max(num_list))
+print(num_list.index(max(num_list))+1)
+```
+### 숫자의 개수
+```python
+a = int(input())
+b = int(input())
+c = int(input())
+
+result = list(str(a * b * c))
+for i in range(10):
+    print(result.count(str(i)))
+```
+### 나머지
+```python
+num_list = []
+rem_list = []
+
+for i in range(10):
+    num_list.append(int(input()))
+
+for num in num_list:
+    rem = num % 42
+    if rem in rem_list:
+        pass
+    else:
+        rem_list.append(rem)
+        
+print(len(rem_list))
+```
+### 평균
+```python
+N = int(input())
+M = list(map(int, input().split()))
+M_max = max(M)
+ 
+for i in range(N):
+    M[i] = M[i]/M_max*100
+avg = sum(M)/ N
+print("%.2f" %avg)
+```
+### OX퀴즈
+```python
+a = int(input())
+for i in range(a):
+    b = input()
+    s = list(b)
+    sum = 0
+    c = 1
+    for i in s:
+        if i == 'O':
+            sum += c
+            c += 1
+        else:
+            c = 1
+    print(sum)
+```
+### 평균은 넘겠지
+```python
+C = int(input())
+for i in range(C):
+    N = list(map(int, input().split(' ')))
+    avg = sum(N[1:]) / N[0]
+    cnt = 0
+    for j in N[1:]:
+        if j > avg : 
+            cnt += 1
+            
+    print(str("%.3f" %round((cnt/N[0])*100, 3))+"%")
+```
