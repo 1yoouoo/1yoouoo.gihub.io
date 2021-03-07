@@ -5,7 +5,7 @@ date:   2021-03-07 10:08:00 +0900
 categories: Algoritm_skill
 ---
 
-## 리스트 컨프리헨션
+## list comprehension
 --------------------
 
 **기본**
@@ -15,7 +15,7 @@ for n in range(1, 10+1):
     numbers.append(n)
 ```
 
-**리스트 컨프리헨션**
+**list comprehension**
 ```python
 [x for x in range(10)]
 ```
