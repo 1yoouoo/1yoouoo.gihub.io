@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "What I've Learn"
-date:   2021-03-06 16:08:00 +0900
-categories: WhatI'veLearn
+title:  "Daily"
+date:   2021-03-07 10:08:00 +0900
+categories: Daily
 ---
 
 Date : 2021-03-06
