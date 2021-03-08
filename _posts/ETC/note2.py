@@ -1,4 +1,7 @@
-lists = [4,5,1,2,3,5,8]
+nums = input()
+nums = [int(n)  for n in nums]
 
-for i in lists:
-    print(i)
+ordered_nums = sorted(nums, reverse=True)
+
+for n in ordered_nums : 
+    print(n, end="")
