@@ -1,6 +1,6 @@
-import pyautogui as pag
+import pyautogui
 import time
 
 while True:
-    time.sleep(1)
-    pag.click()
+    time.sleep(2)
+    pyautogui.click()
