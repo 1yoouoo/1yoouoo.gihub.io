@@ -1,6 +1,6 @@
-N = int(input())
-lists = sorted(list(str(N)))
-print(lists)
+import pyautogui
+import time
 
-for i in range(len(lists)):
-    print(lists[-i-1],end='')
+while True:
+    time.sleep(1)
+    pyautogui.alert('알람.')
