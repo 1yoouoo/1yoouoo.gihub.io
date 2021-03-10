@@ -1,14 +1,4 @@
-13
-but
-i
-wont
-hesitate
-no
-more
-no
-more
-it
-cannot
-wait
-im
-yours
+N, M = map(int, input().split())
+def BT(index, num):
+    for i in range(1, N+1):
+
