@@ -1,6 +1,14 @@
-import pyautogui
-import time
-
-while True:
-    time.sleep(1)
-    pyautogui.alert('알람.')
+13
+but
+i
+wont
+hesitate
+no
+more
+no
+more
+it
+cannot
+wait
+im
+yours
