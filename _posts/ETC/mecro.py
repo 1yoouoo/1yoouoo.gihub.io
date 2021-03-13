@@ -1,24 +1,35 @@
 import pyautogui as pag
 import time
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+# 0. chrome driver 다운로드
+pag.hotkey('windows', 's')
+pag.write('chrome')
+pag.press('enter')
+pag.hotkey('alt', 'space', 'x')
+pag.moveTo(1280, 67)
+pag.click()
+pag.press('https://chromedriver.chromium.org/downloads')
+pag.press('enter')
+
+# 1. vscode 다운로드
+driver = webdriver.Chrome()
+driver.get("https://code.visualstudio.com/")
+elem = driver.find_element_by_css_selector(".link-button dlink").click()
+pag.moveTo(1093, 1015)
+pag.click()
+time.sleep(1)
+pag.press('enter')
 
 
-
-def image_serching(URL):
-    pag.moveTo(1231, 59)
-    time.sleep(1)
-    pag.click()
-    pag.write(URL)
-    pag.press('enter')
-    while True:
-        find_img = pag.locateOnScreen('vscode.png')
-        if find_img==None:
-            time.sleep(3)
-        else:
-            break
-    center = pag.center(image)
-    pag.click(center)
-
-image_serching('https://code.visualstudio.com/')
+# assert "Python" in driver.title
+# elem = driver.find_element_by_name("q")
+# elem.clear()
+# elem.send_keys("pycon")
+# elem.send_keys(Keys.RETURN)
+# assert "No results found." not in driver.page_source
+# driver.close()
 
 
 
