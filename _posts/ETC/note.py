@@ -1,16 +1,7 @@
-graph = {
-    1:[2,3,4],
-    2:[1,3,4],
-    3:[1,2,4],
-    4:[1,2,3]
-}
+import pyautogui as pag
+import time
 
-def BT(num, visited = []):
-    visited.append(num)
-    for item in graph[num]:
-        if not item in visited:
-            visited = BT(item, visited)
-    return visited
+position = pag.position()
 
-
-print(BT(2, visited))
+print(position.x)
+print(position.y)
