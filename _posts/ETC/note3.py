@@ -30,13 +30,31 @@ pag.press('enter')
 time.sleep(5)
 pag.hotkey('Alt', 'a')
 time.sleep(1)
-pag.press('enter', presses=5, interval=2)
-time.sleep(10)
+pag.press('enter', presses=2, interval=1)
+time.sleep(15)
 pag.press('enter')
 time.sleep(5)
 pag.hotkey('Alt', 'F4')
 time.sleep(3)
 pag.hotkey('ctrl', 'w')
+time.sleep(3)
+pag.hotkey('Alt', 'F4')
+
+# vscode 실행, 코드
+
+pag.hotkey('win', 's')
+pag.write('visual')
+time.sleep(0.5)
+pag.press('enter')
+
+
+
+
+
+
+
+
+
 
 
 
