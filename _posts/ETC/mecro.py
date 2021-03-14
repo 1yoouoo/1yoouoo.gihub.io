@@ -66,7 +66,7 @@ pag.click()
 pag.hotkey('alt', 'F4')
 time.sleep(1)
 
-# vscode 다운로드
+# 1. vscode 다운로드
 pag.hotkey('win', 's')
 pag.write('chrome')
 time.sleep(0.5)
@@ -98,3 +98,7 @@ time.sleep(3)
 pag.hotkey('ctrl', 'w')
 time.sleep(1)
 pag.hotkey('ctrl', 'w')
+time.sleep(1)
+#pag.hotkey('win', 'd')
+
+# 2. git 다운로드
