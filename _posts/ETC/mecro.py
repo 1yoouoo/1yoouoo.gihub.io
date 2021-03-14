@@ -48,25 +48,35 @@ time.sleep(1)
 
 
 # 1. vscode 다운로드
-driver = webdriver.Chrome()
-driver.get("https://code.visualstudio.com/")
-elem = driver.find_element_by_css_selector(".link-button dlink").click()
-pag.moveTo(1093, 1015)
-pag.click()
-time.sleep(1)
+pag.hotkey('win', 's')
+pag.write('chrome')
+time.sleep(0.5)
 pag.press('enter')
-
-
-# assert "Python" in driver.title
-# elem = driver.find_element_by_name("q")
-# elem.clear()
-# elem.send_keys("pycon")
-# elem.send_keys(Keys.RETURN)
-# assert "No results found." not in driver.page_source
-# driver.close()
-
-
-
-
-
-# pyautogui.press('enter', presses=3, interval=3)
+time.sleep(1)
+pag.hotkey('alt', 'space', 'x')
+pag.moveTo(300, 52, 1)
+time.sleep(0.5)
+pag.click()
+pag.write('https://code.visualstudio.com/')
+time.sleep(0.5)
+pag.press('enter')
+pag.moveTo(540, 434, 1)
+time.sleep(3)
+pag.click()
+pag.moveTo(104, 1013, 1)
+time.sleep(60)
+pag.click()
+time.sleep(5)
+pag.press('enter')
+time.sleep(5)
+pag.hotkey('Alt', 'a')
+time.sleep(1)
+pag.press('enter', presses=2, interval=1)
+time.sleep(15)
+pag.press('enter')
+time.sleep(5)
+pag.hotkey('Alt', 'F4')
+time.sleep(3)
+pag.hotkey('ctrl', 'w')
+time.sleep(3)
+pag.hotkey('Alt', 'F4')
