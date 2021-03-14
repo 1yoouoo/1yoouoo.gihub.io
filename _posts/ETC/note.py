@@ -1,5 +1,6 @@
 import pyautogui as pag
 import time
 
-
-pag.mouseInfo()
+while True:
+    time.sleep(1)
+    pag.locateOnScreen('vscode.PNG')
