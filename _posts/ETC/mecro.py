@@ -1,3 +1,5 @@
+################################################
+
 import pyautogui as pag
 import time
 from selenium import webdriver
@@ -65,8 +67,12 @@ time.sleep(1)
 pag.click()
 pag.hotkey('alt', 'F4')
 time.sleep(1)
+pag.click()
+pag.hotkey('alt', 'F4')
+time.sleep(1)
 
-# 1. vscode 다운로드
+# vscode 다운로드
+
 pag.hotkey('win', 's')
 pag.write('chrome')
 time.sleep(0.5)
@@ -89,7 +95,6 @@ time.sleep(60)
 pag.click()
 time.sleep(5)
 pag.press('enter')
-
 time.sleep(5)
 pag.hotkey('Alt', 'a')
 time.sleep(1)
@@ -106,9 +111,11 @@ pag.hotkey('ctrl', 'w')
 time.sleep(1)
 pag.hotkey('ctrl', 'w')
 
-# 2. git desktop 다운로드
+# git desktop 다운로드
 
 driver = webdriver.Chrome()
+pag.moveTo(1072, 735, 5)
+pag.click()
 driver.maximize_window()
 time.sleep(1)
 driver.get('https:\//desktop.github.com/')
@@ -119,44 +126,40 @@ pag.click()
 pag.moveTo(98, 1004, 1)
 time.sleep(60)
 pag.click()
-
-pag.moveTo(606, 613, 1)
+time.sleep(10)
+pag.moveTo(658, 616, 2)
 pag.click()
-time.sleep(1)
-pag.write("1yoouoo@gmail.com")
+pag.moveTo(887, 440, 2)
+pag.click()
+pag.write('1yoouoo@gmail.com')
 time.sleep(1)
 pag.press('tab')
-pag.write("Vhdpqj458!")
-time.sleep(1)
-pag.press('tab')
-time.sleep(1)
-pag.press('tab')
-time.sleep(1)
-pag.press('enter')
-
-pag.moveTo(1026, 224, 2)
+pag.write('Vhdpqj458!')
+pag.press('Enter')
+pag.moveTo(745, 163, 2)
 pag.click()
-
-pag.moveTo(540, 625, 2)
+pag.moveTo(1031, 226, 1)
 pag.click()
-time.sleep(1)
+pag.moveTo(556, 635, 2)
 pag.click()
-
-pag.moveTo(1059, 480, 2)
+pag.moveTo(547, 626, 0.5)
 pag.click()
-time.sleep(1)
-
-pag.moveTo(1090, 780, 2)
+pag.moveTo(1069, 484, 1)
 pag.click()
-time.sleep(1)
-
-pag.moveTo(1007, 642, 2)
+pag.moveTo(1165, 779, 1)
+pag.click()
+pag.moveTo(1003, 643, 1)
 pag.click()
 time.sleep(10)
+pag.moveTo(885, 205, 1)
+pag.click()
+클릭상태 유지
+pag.moveTo(0, 191, 2)
+드랍
+pag.moveTo(1206, 678, 1)
+pag.click()
 
-
-
-# 3. git 다운로드
+# git 다운로드
 
 driver = webdriver.Chrome()
 driver.maximize_window()
@@ -164,6 +167,8 @@ time.sleep(1)
 driver.get('https://git-scm.com/')
 time.sleep(5)
 elem = driver.find_element_by_xpath("/html/body/div[3]/div/div/section[2]/div/a[2]").click()
+pag.moveTo(412, 1011, 1)
+pag.click()
 pag.moveTo(98, 1004, 1)
 time.sleep(60)
 pag.click()
@@ -172,3 +177,65 @@ time.sleep(40)
 pag.press('enter')
 time.sleep(1)
 pag.hotkey('ctrl', 'w')
+
+
+# 마무리
+
+# 1. 1yoouoo.github.io
+pag.moveTo(1209, 61, 1)
+pag.click()
+pag.write('https://1yoouoo.github.io/')
+pag.press('enter')
+time.sleep(1)
+
+# 2. github.com
+pag.hotkey('ctrl', 't')
+time.sleep(1)
+pag.write('https://github.com/1yoouoo/1yoouoo.github.io')
+pag.press('enter')
+time.sleep(1)
+
+# 3. 백준(로그인)
+pag.hotkey('ctrl', 't')
+time.sleep(1)
+pag.write('https://www.acmicpc.net/login?next=%2F')
+pag.press('enter')
+pag.write('1yoouoo')
+pag.press('tab')
+pag.write('Vhdpqj458!')
+pag.press('tab')
+pag.press('space')
+pag.press('tab')
+pag.press('space')
+time.sleep(4)
+
+# 4. python tutor
+pag.hotkey('ctrl', 't')
+time.sleep(1)
+pag.write('http://pythontutor.com/live.html#mode=edit')
+pag.press('enter')
+time.sleep(1)
+
+# 5. google.com(로그인)
+pag.hotkey('ctrl', 't')
+time.sleep(1)
+pag.write('google.com')
+pag.press('enter')
+pag.moveTo(1853, 114, 2)
+pag.click()
+time.sleep(1)
+pag.write('01064882739')
+pag.press('enter')
+time.sleep(3)
+pag.write('vhdpqj458!')
+time.sleep(1)
+pag.press('enter')
+
+# 6. youtube.com
+pag.hotkey('ctrl', 't')
+time.sleep(1)
+pag.write('https://www.youtube.com/')
+pag.press('enter')
+
+
+#################################################
