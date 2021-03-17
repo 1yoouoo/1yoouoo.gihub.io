@@ -204,7 +204,7 @@ pag.write('https://github.com/1yoouoo/1yoouoo.github.io')
 pag.press('enter')
 time.sleep(1)
 
-# 3. 백준(로그인)
+# 3. 백준(로그인)a
 pag.hotkey('ctrl', 't')
 time.sleep(1)
 pag.write('https://www.acmicpc.net/login?next=%2F')
@@ -218,7 +218,7 @@ pag.press('tab')
 pag.press('space')
 time.sleep(4)
 
-# 4. python tutor a
+# 4. python tutor
 pag.hotkey('ctrl', 't')
 time.sleep(1)
 pag.write('http://pythontutor.com/live.html#mode=edit')
