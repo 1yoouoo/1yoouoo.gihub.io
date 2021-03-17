@@ -218,14 +218,14 @@ pag.press('tab')
 pag.press('space')
 time.sleep(4)
 
-# 4. python tutor
+# 4. python tutor a
 pag.hotkey('ctrl', 't')
 time.sleep(1)
 pag.write('http://pythontutor.com/live.html#mode=edit')
 pag.press('enter')
 time.sleep(1)
 
-# 5. google.com(로그인) a
+# 5. google.com(로그인)
 pag.hotkey('ctrl', 't')
 time.sleep(1)
 pag.write('google.com')
