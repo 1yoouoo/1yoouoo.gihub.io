@@ -225,7 +225,7 @@ pag.write('http://pythontutor.com/live.html#mode=edit')
 pag.press('enter')
 time.sleep(1)
 
-# 5. google.com(로그인)
+# 5. google.com(로그인) a
 pag.hotkey('ctrl', 't')
 time.sleep(1)
 pag.write('google.com')
@@ -240,7 +240,7 @@ pag.write('vhdpqj458!')
 time.sleep(1)
 pag.press('enter')
 
-# 6. youtube.com a
+# 6. youtube.com
 pag.hotkey('ctrl', 't')
 time.sleep(1)
 pag.write('https://www.youtube.com/')
