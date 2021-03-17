@@ -179,7 +179,7 @@ pag.press('enter', presses=14, interval=1.5)
 time.sleep(40)
 pag.press('enter')
 time.sleep(1)
-pag.hotkey('ctrl', 'w')
+pag.hotkey('ctrl', 'w') ddd
 
 
 # 마무리
@@ -214,7 +214,7 @@ pag.press('tab')
 pag.write('Vhdpqj458!')
 pag.press('tab')
 pag.press('space')
-pag.press('tab')ddd
+pag.press('tab')
 pag.press('space')
 time.sleep(4)
 
