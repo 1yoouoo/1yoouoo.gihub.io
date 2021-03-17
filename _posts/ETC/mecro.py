@@ -204,7 +204,7 @@ pag.write('https://github.com/1yoouoo/1yoouoo.github.io')
 pag.press('enter')
 time.sleep(1)
 
-# 3. 백준(로그인)s
+# 3. 백준(로그인)
 pag.hotkey('ctrl', 't')
 time.sleep(1)
 pag.write('https://www.acmicpc.net/login?next=%2F')
@@ -214,7 +214,7 @@ pag.press('tab')
 pag.write('Vhdpqj458!')
 pag.press('tab')
 pag.press('space')
-pag.press('tab')
+pag.press('tab')ddd
 pag.press('space')
 time.sleep(4)
 
