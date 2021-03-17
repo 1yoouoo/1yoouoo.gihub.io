@@ -240,7 +240,7 @@ pag.write('vhdpqj458!')
 time.sleep(1)
 pag.press('enter')
 
-# 6. youtube.com
+# 6. youtube.com a
 pag.hotkey('ctrl', 't')
 time.sleep(1)
 pag.write('https://www.youtube.com/')
