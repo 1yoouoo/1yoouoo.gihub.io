@@ -207,7 +207,7 @@ pag.moveTo(885, 205, 2)
 pag.dragTo(x=0, y=500, duration=2)
 pag.hotkey('win', 'd')
 
-# 4-(1). git 다운로드aa
+# 4-(1). git 다운로드
 
 pag.moveTo(124, 1062, 3)
 pag.click()
